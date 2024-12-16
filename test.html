@@ -1,0 +1,67 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* .frame {
+    position: relative;
+    width: 300px; 
+    height: 300px;
+    background: url('path-to-your-frame-image.png') no-repeat center center;
+    background-size: contain; 
+}
+
+.avatar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%; 
+    height: 55%;
+    border-radius: 50%;
+    object-fit: cover; /
+} */
+.frame {
+    position: relative;
+    width: 300px; /* Kích thước khung */
+    height: 300px; /* Kích thước khung */
+    background: url('./a_a657b4509fd2b75f5bb12e3a0bb0a7a0.png') no-repeat center center;
+    background-size: cover; /* Hiển thị khung đúng kích thước */
+    border-radius: 50%; /* Làm khung bo tròn */
+    overflow: hidden; /* Ẩn các phần ảnh thừa */
+}
+
+.avatar-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    overflow: hidden; /* Ẩn phần ảnh dư nếu có */
+    border-radius: 50%; /* Làm avatar-container bo tròn */
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ảnh sẽ vừa với container mà không bị méo */
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="avatar-container">
+            <img src="./gg (2).png" alt="Avatar" class="avatar">
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>
